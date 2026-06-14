@@ -1,0 +1,7 @@
+pdfplumber
+pymupdf
+pdf2image
+openai
+anthropic
+pandas
+python-dotenv
