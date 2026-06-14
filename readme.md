@@ -22,3 +22,32 @@ AIP444NSC_G07_Research_PDF-Dilemma/
 │
 └── outputs/              # Parsed outputs (.txt) & metrics (.csv)
 ```
+
+## Getting Started
+
+### 1. Install Dependencies
+Install the required Python packages before running any scripts:
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Configure Environment Variables
+Create or update your `.env` file in the root directory and add your API keys:
+```env
+OPENAI_API_KEY=your_openai_api_key_here
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+```
+
+### 3. Run Pipelines
+* **Text Extraction (Member 2)**: Place your PDF files inside the `pdfs/` directory, then run:
+  ```bash
+  python pipeline_text.py
+  ```
+* **Vision-Based Parsing (Member 3)**: Run the vision pipeline:
+  ```bash
+  python pipeline_vision.py
+  ```
+* **Evaluation & Analysis (Member 4)**: Run the evaluation script to compile the results:
+  ```bash
+  python evaluate.py
+  ```
