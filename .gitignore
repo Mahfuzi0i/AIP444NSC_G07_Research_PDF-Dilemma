@@ -23,7 +23,7 @@ env/
 outputs/
 
 # PDFs (potentially large / copyrighted test files)
-pdfs/
+pdfs/*.pdf
 
 # Jupyter
 .ipynb_checkpoints/
