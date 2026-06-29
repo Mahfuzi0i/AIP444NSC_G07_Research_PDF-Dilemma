@@ -13,6 +13,12 @@ load_dotenv()
 PDFS_DIR = "./pdfs"
 OUTPUTS_DIR = "./outputs"
 
+# table_preservation rubric (manual, fill in outputs CSV after reviewing extracted text):
+#   0 = table not detected / completely garbled
+#   1 = partial — some rows/columns captured but structure broken
+#   2 = mostly correct — minor misalignments or missing cells
+#   3 = perfect — all rows, columns, and values intact
+
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=os.getenv("OPENROUTER_API_KEY"),
@@ -27,10 +33,21 @@ def calculate_similarity(text1, text2):
 # Member 3: Vision-Based Parsing Pipeline (OpenRouter → Gemini 2.5 Flash)
 def extract_via_vision(pdf_path: str, output_dir: str) -> dict:
     os.makedirs(output_dir, exist_ok=True)
-    pages = convert_from_path(pdf_path, dpi=200)
+    pdf_name = os.path.splitext(os.path.basename(pdf_path))[0]
+
+    try:
+        pages = convert_from_path(pdf_path, dpi=200)
+    except Exception as e:
+        print(f"[-] PDF-to-image conversion failed for {pdf_path}: {e}")
+        return {
+            "pdf_name": pdf_name, "pages": [], "full_text": "",
+            "total_cost_usd": 0, "total_latency_s": 0, "failed": True,
+        }
+
     page_results = []
     total_cost = 0.0
     full_text = ""
+    failed = False
 
     for i, page_img in enumerate(pages):
         img_path = os.path.join(output_dir, f"page_{i+1}.png")
@@ -40,28 +57,34 @@ def extract_via_vision(pdf_path: str, output_dir: str) -> dict:
             img_data = base64.standard_b64encode(f.read()).decode("utf-8")
 
         start = time.time()
-        response = client.chat.completions.create(
-            model="google/gemini-2.5-flash",
-            max_tokens=2048,
-            messages=[{
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image_url",
-                        "image_url": {"url": f"data:image/png;base64,{img_data}"}
-                    },
-                    {
-                        "type": "text",
-                        "text": (
-                            "Extract all text and structured content from this document page. "
-                            "For any tables, preserve the structure using markdown table format. "
-                            "For any charts or figures, describe what data they show. "
-                            "Output only the extracted content — no commentary."
-                        )
-                    }
-                ]
-            }]
-        )
+        try:
+            response = client.chat.completions.create(
+                model="google/gemini-2.5-flash",
+                max_tokens=2048,
+                messages=[{
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image_url",
+                            "image_url": {"url": f"data:image/png;base64,{img_data}"}
+                        },
+                        {
+                            "type": "text",
+                            "text": (
+                                "Extract all text and structured content from this document page. "
+                                "For any tables, preserve the structure using markdown table format. "
+                                "For any charts or figures, describe what data they show. "
+                                "Output only the extracted content — no commentary."
+                            )
+                        }
+                    ]
+                }]
+            )
+        except Exception as e:
+            print(f"[-] API call failed on page {i+1}: {e}")
+            failed = True
+            continue
+
         elapsed = time.time() - start
 
         text = response.choices[0].message.content
@@ -85,7 +108,6 @@ def extract_via_vision(pdf_path: str, output_dir: str) -> dict:
         print(f"  Page {i+1}: {elapsed:.2f}s | ${cost:.5f} | {input_tokens}in/{output_tokens}out tokens")
 
     # Save concatenated text output
-    pdf_name = os.path.splitext(os.path.basename(pdf_path))[0]
     out_path = os.path.join(output_dir, f"{pdf_name}.txt")
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(full_text)
@@ -99,6 +121,7 @@ def extract_via_vision(pdf_path: str, output_dir: str) -> dict:
         "full_text": full_text,
         "total_cost_usd": round(total_cost, 6),
         "total_latency_s": round(total_latency, 2),
+        "failed": failed,
     }
 
 
@@ -134,17 +157,19 @@ if __name__ == "__main__":
             "pdf_name": pdf_name,
             "tool": "gemini-2.5-flash",
             "time_sec": result["total_latency_s"],
+            "char_count": len(result["full_text"]),
             "accuracy": accuracy,
+            "failed": result["failed"],
             "cost_usd": result["total_cost_usd"],
             "pages": len(result["pages"]),
             "content_completeness": "",  # manual review
-            "table_preservation": "",    # manual review
+            "table_preservation": "",    # manual: 0=fail 1=partial 2=mostly 3=perfect
         })
 
     # Save summary CSV — parallel to outputs/text_results.csv
     csv_path = os.path.join(OUTPUTS_DIR, "vision_results.csv")
-    fields = ["pdf_name", "tool", "time_sec", "accuracy", "cost_usd", "pages",
-              "content_completeness", "table_preservation"]
+    fields = ["pdf_name", "tool", "time_sec", "char_count", "accuracy",
+              "failed", "cost_usd", "pages", "content_completeness", "table_preservation"]
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
