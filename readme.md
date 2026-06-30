@@ -51,3 +51,24 @@ ANTHROPIC_API_KEY=your_anthropic_api_key_here
   ```bash
   python evaluate.py
   ```
+
+### 4. Metrics & Evaluation Rubric (Phase 1)
+To compare both pipelines fairly, the following metrics are tracked per PDF per method:
+
+| Metric | How to Measure | Code Variable |
+|--------|----------------|---------------|
+| **Processing time (s)** | Measured via `time.time()` before/after extraction | `time_sec` |
+| **Output character count** | Measured via `len(extracted_text)` | `char_count` |
+| **Table structure score (0–3)** | Manual rating using the rubric below | `table_preservation` |
+| **API cost ($)** | Calculated based on input/output tokens (Gemini) | `cost_usd` |
+| **Extraction failures** | Boolean flag tracking crashes or exceptions | `failed` |
+| **Text Accuracy (%)** | Similarity ratio vs ground truth text | `accuracy` |
+
+#### Table Preservation Rubric:
+* **0 (Failure)**: Table not detected at all, or completely garbled/unusable structure.
+* **1 (Partial)**: Some rows or columns captured, but the overall structure is broken.
+* **2 (Mostly Correct)**: Table structure preserved, with minor misalignments or a few missing cells.
+* **3 (Perfect)**: All rows, columns, headers, and values are fully intact.
+
+A unified logging template is available at [evaluation_template.csv](file:///c:/Users/tmfrl/Downloads/AIP444/AIP444NSC_G07_Research_PDF-Dilemma/evaluation_template.csv) for logging Phase 2 results.
+

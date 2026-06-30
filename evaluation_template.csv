@@ -1,0 +1,4 @@
+pdf_name,pipeline,processing_time_sec,character_count,accuracy_vs_ground_truth_percent,table_structure_score_0_3,api_cost_usd,extraction_failure_flag,content_completeness_notes,general_comments
+sample_doc_1,pdfplumber,0.85,1240,95.2,2,0.00,False,Mostly complete but table columns slightly offset,
+sample_doc_1,pymupdf,0.12,1250,94.8,1,0.00,False,Fast but completely flattened the tables,
+sample_doc_1,gemini-2.5-flash,3.45,1300,98.1,3,0.00062,False,Perfect markdown table structure,
