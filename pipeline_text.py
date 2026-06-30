@@ -83,11 +83,17 @@ def main():
                 ground_truth_text = f.read()
             print(f"[+] Ground truth found for {filename}")
 
+        # Create subdirectories for each library to match the required folder structure
+        pdfplumber_dir = os.path.join(OUTPUTS_DIR, "pdfplumber")
+        pymupdf_dir = os.path.join(OUTPUTS_DIR, "pymupdf")
+        os.makedirs(pdfplumber_dir, exist_ok=True)
+        os.makedirs(pymupdf_dir, exist_ok=True)
+
         # 1. pdfplumber
         print(f"[*] Extracting with pdfplumber: {filename}")
         plumber_text, plumber_time, plumber_ok = run_pdfplumber_extraction(pdf_path)
 
-        out_file = os.path.join(OUTPUTS_DIR, f"{pdf_name}_pdfplumber.txt")
+        out_file = os.path.join(pdfplumber_dir, f"{pdf_name}.txt")
         with open(out_file, 'w', encoding='utf-8') as f:
             f.write(plumber_text)
 
@@ -107,7 +113,7 @@ def main():
         print(f"[*] Extracting with PyMuPDF: {filename}")
         mupdf_text, mupdf_time, mupdf_ok = run_pymupdf_extraction(pdf_path)
 
-        out_file = os.path.join(OUTPUTS_DIR, f"{pdf_name}_pymupdf.txt")
+        out_file = os.path.join(pymupdf_dir, f"{pdf_name}.txt")
         with open(out_file, 'w', encoding='utf-8') as f:
             f.write(mupdf_text)
 
