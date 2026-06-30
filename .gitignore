@@ -22,9 +22,6 @@ env/
 # Outputs (generated results — large, reproducible)
 outputs/
 
-# PDFs (potentially large / copyrighted test files)
-pdfs/*.pdf
-
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb
