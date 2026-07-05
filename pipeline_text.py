@@ -71,6 +71,7 @@ def main():
     print(f"[*] Found {len(pdf_files)} PDF files to process.")
 
     results = []
+    side_by_side_results = []
 
     for filename in pdf_files:
         pdf_path = os.path.join(PDFS_DIR, filename)
@@ -129,6 +130,17 @@ def main():
             'table_preservation': '',    # manual: 0=fail 1=partial 2=mostly 3=perfect
         })
 
+        # Store side-by-side metrics
+        side_by_side_results.append({
+            'PDF file': pdf_name,
+            'pdfplumber time (s)': round(plumber_time, 4),
+            'pdfplumber chars': len(plumber_text),
+            'pdfplumber failures': 'none' if plumber_ok else 'failed',
+            'PyMuPDF time (s)': round(mupdf_time, 4),
+            'PyMuPDF chars': len(mupdf_text),
+            'PyMuPDF failures': 'none' if mupdf_ok else 'failed'
+        })
+
     csv_file = os.path.join(OUTPUTS_DIR, "text_results.csv")
     fields = ['pdf_name', 'tool', 'time_sec', 'char_count', 'accuracy',
               'failed', 'content_completeness', 'table_preservation']
@@ -138,7 +150,24 @@ def main():
         writer.writeheader()
         writer.writerows(results)
 
+    # Save side-by-side performance metrics
+    metrics_file = os.path.join(OUTPUTS_DIR, "text_pipeline_metrics.csv")
+    metrics_fields = [
+        'PDF file', 
+        'pdfplumber time (s)', 
+        'pdfplumber chars', 
+        'pdfplumber failures', 
+        'PyMuPDF time (s)', 
+        'PyMuPDF chars', 
+        'PyMuPDF failures'
+    ]
+    with open(metrics_file, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=metrics_fields)
+        writer.writeheader()
+        writer.writerows(side_by_side_results)
+
     print(f"\n[+] Processing complete! Summary results saved to {csv_file}")
+    print(f"[+] Performance metrics saved to {metrics_file}")
 
 if __name__ == "__main__":
     main()
