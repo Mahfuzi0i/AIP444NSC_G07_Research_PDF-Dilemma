@@ -19,9 +19,6 @@ venv/
 env/
 .env/
 
-# Outputs (generated results — large, reproducible)
-outputs/
-
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb
