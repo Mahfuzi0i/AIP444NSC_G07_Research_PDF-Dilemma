@@ -1,0 +1,495 @@
+FREQ
+FREQ_LABEREF_AREA REF_AREA_INDICATORINDICATORUNIT_MEASUNIT_MEASDATABASE_DATABASE_UNIT_MULTUNIT_MULTOBS_STATU
+A
+Annual
+ABW
+Aruba
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+AFG
+AfghanistanFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+AGO
+Angola
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+AIA
+Anguilla
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+ALB
+Albania
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+AND
+Andorra
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+ANT
+NetherlandFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+ARE
+United ArabFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+ARG
+Argentina FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+ARM
+Armenia
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+ASM
+American SFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+ATG
+Antigua andFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+AUS
+Australia
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+AUT
+Austria
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+AZE
+Azerbaijan FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BDI
+Burundi
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BEL
+Belgium
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BEN
+Benin
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BFA
+Burkina FasFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BGD
+BangladeshFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BGR
+Bulgaria
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BHR
+Bahrain
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BHS
+Bahamas, TFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BIH
+Bosnia andFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BLR
+Belarus
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BLZ
+Belize
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BMU
+Bermuda
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BOL
+Bolivia
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BRA
+Brazil
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BRB
+Barbados FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BRN
+Brunei DaruFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+BTN
+Bhutan
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+
+A
+Annual
+BWA
+Botswana FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+CAF
+Central Afr FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+CAN
+Canada
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+CHE
+SwitzerlandFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+CHL
+Chile
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+CHN
+China
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+CIV
+Cote d'IvoirFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+CMR
+Cameroon FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+COD
+Congo, DemFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+COG
+Congo, RepFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+COK
+Cook IslandFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+COL
+Colombia FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+COM
+Comoros
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+CPV
+Cabo VerdeFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+CRI
+Costa Rica FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+CUB
+Cuba
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+CYM
+Cayman IslFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+CYP
+Cyprus
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+CZE
+Czechia
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+DEU
+Germany
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+DJI
+Djibouti
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+DMA
+Dominica FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+DNK
+Denmark
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+DOM
+Dominican FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+DZA
+Algeria
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+ECU
+Ecuador
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+EGY
+Egypt, ArabFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+ERI
+Eritrea
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+ESH
+Western SaFAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+ESP
+Spain
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+EST
+Estonia
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+ETH
+Ethiopia
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+A
+Annual
+FIN
+Finland
+FAO_EMST GreenhousKT
+Kilotonnes FAO_EMST Emissions T
+0 Units
+A
+

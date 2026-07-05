@@ -1,0 +1,88 @@
+Attention:
+You may file Forms W-2 and W-3 electronically on the SSA’s Employer
+W-2 Filing Instructions and Information web page, which is also accessible
+at www.socialsecurity.gov/employer. You can create fill-in versions of
+Forms W-2 and W-3 for filing with SSA. You may also print out copies for
+filing with state or local governments, distribution to your employees, and
+for your records.
+Note: Copy A of this form is provided for informational purposes only. Copy A appears in
+red, similar to the official IRS form. The official printed version of this IRS form is scannable,
+but the online version of it, printed from this website, is not. Do not print and file Copy A
+downloaded from this website with the SSA; a penalty may be imposed for filing forms that
+can’t be scanned. See the penalties section in the current General Instructions for Forms
+W-2 and W-3, available at www.irs.gov/w2, for more information.
+Please note that Copy B and other copies of this form, which appear in black, may be
+downloaded, filled in, and printed and used to satisfy the requirement to provide the
+information to the recipient.
+To order official IRS information returns such as Forms W-2 and W-3, which include a
+scannable Copy A for filing, go to IRS’ Online Ordering for Information Returns and
+Employer Returns page, or visit www.irs.gov/orderforms and click on Employer and
+Information returns. We’ll mail you the scannable forms and any other products you order.
+See IRS Publications 1141, 1167, and 1179 for more information about printing these tax
+forms.
+a Employee’s social security number
+22222
+OMB No. 1545-0029
+b Employer identification number (EIN) 1 Wages, tips, other compensation 2 Federal income tax withheld
+c Employer’s name, address, and ZIP code 3 Social security wages 4 Social security tax withheld
+5 Medicare wages and tips 6 Medicare tax withheld
+7 Social security tips 8 Allocated tips
+d Control number 9 10 Dependent care benefits
+11 Nonqualified plans
+e Employee’s first name and initial Last name Suff. 12a
+13 S em ta p tu lo to y r e y e R pl e a t n irement T si h c i k rd p - a p y arty C d o e
+12b
+14a Other C d o e
+12c
+Co
+de
+12d
+14b Treasury Tipped Occupation Code(s) C d o e
+f Employee’s address and ZIP code
+15 State Employer’s state ID number 16 State wages, tips, etc. 17 State income tax 18 Local wages, tips, etc. 19 Local income tax 20 Locality name
+W-2 2026 Department of the Treasury—Internal Revenue Service
+Wage and Tax Statement
+Form
+Copy 1—For State, City, or Local Tax Department
+Future developments. For the latest information about Corrections. If your name, SSN, or address is incorrect, correct
+developments related to Form W-2, such as legislation enacted Copies B, C, and 2 and ask your employer to correct your
+after it was published, go to www.irs.gov/FormW2. employment record. Be sure to ask the employer to file Form
+W-2c, Corrected Wage and Tax Statement, with the SSA to
+Notice to Employee correct any name, SSN, or money amount error reported to the
+SSA on Form W-2. Be sure to get your copies of Form W-2c
+Do you have to file? Refer to the Form 1040 instructions to
+from your employer for all corrections made so you may file
+determine if you are required to file a tax return. Even if you
+them with your tax return. If your name and SSN are correct but
+don’t have to file a tax return, you may be eligible for a refund if
+aren’t the same as shown on your social security card, you
+box 2 shows an amount or if you are eligible for any credit.
+should ask for a new card that displays your correct name at
+Earned income tax credit (EITC). You may be able to take the any SSA office or by calling 800-772-1213. You may also visit
+EITC for 2026 if your adjusted gross income (AGI) is less than a the SSA website at www.SSA.gov.
+certain amount. The amount of the credit is based on income
+Cost of employer-sponsored health coverage (if such cost is
+and family size. Workers without children could qualify for a
+provided by the employer). The reporting in box 12, using
+smaller credit. You and any qualifying children must have valid
+code DD, of the cost of employer-sponsored health coverage is
+social security numbers (SSNs). You can’t take the EITC if your
+for your information only. The amount reported with code DD
+investment income is more than the specified amount for 2026
+is not taxable.
+or if income is earned for services provided while you were an
+inmate at a penal institution. For 2026 income limits and more Credit for excess taxes. If you had more than one employer in
+information, visit www.irs.gov/EITC. See also Pub. 596. Any 2026 and more than $11,439.00 in social security and/or Tier 1
+EITC that is more than your tax liability is refunded to you, railroad retirement (RRTA) taxes were withheld, you may be able
+but only if you file a tax return. to claim a credit for the excess against your federal income tax.
+See the Form 1040 instructions. If you had more than one
+Employee’s social security number (SSN). For your
+railroad employer and more than $6,717.90 in Tier 2 RRTA tax
+protection, this form may show only the last four digits of your
+was withheld, you may be able to claim a refund on Form 843.
+SSN. However, your employer has reported your complete SSN
+See the Instructions for Form 843.
+to the IRS and the Social Security Administration (SSA).
+(See also Instructions for Employee on the back of Copy C.)
+Clergy and religious workers. If you aren’t subject to social
+security and Medicare taxes, see Pub. 517.

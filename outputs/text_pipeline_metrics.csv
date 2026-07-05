@@ -1,0 +1,9 @@
+PDF file,pdfplumber time (s),pdfplumber chars,pdfplumber failures,PyMuPDF time (s),PyMuPDF chars,PyMuPDF failures
+1810.04805v2_tables&figures,0.9782,8830,none,0.0957,9215,none
+2606.12848v1_Multicolumn,0.4385,11869,none,0.0186,13297,none
+DOC3621-190_PrimosSubrRef_19.4_Apr85_ImageOnly,0.0333,0,none,0.0026,0,none
+FAO_EMSTOT_Worldbankdata_Greenhouse_Data tables,0.8133,10572,none,0.019,5630,none
+fw2_Scanned_govt_Form,0.4537,5494,none,0.0166,5578,none
+Lecture_imageOnly,0.123,0,none,0.0067,0,none
+Liberty Bell - Wikipedia_Clean_baseline,0.9133,12240,none,0.0153,12249,none
+_10-K-Q4-2023-As-Filed_FinancialTables,0.335,5162,none,0.011,5677,none

@@ -1,0 +1,66 @@
+FREQ FREQ_LABERLEF_AREA REF_AREA_LINADBEICLATORINDICATORU_LNAIBT_EMLEASUUNRIET_MEASDUARTEA_BLAABSEE_LDIDATABASE_UIDN_ILTA_MBEULLTUNIT_MULTO_LBASB_ESLTATUS
+A Annual ABW Aruba FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual AFG AfghanistanFAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual AGO Angola FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual AIA Anguilla FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual ALB Albania FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual AND Andorra FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual ANT NetherlandsF AAOnt_iEllMesSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual ARE United ArabF EAmOi_rEaMteSsTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual ARG Argentina FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual ARM Armenia FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual ASM American SaFmAOo_aEMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual ATG Antigua andF BAaOr_bEuMdaSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual AUS Australia FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual AUT Austria FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual AZE Azerbaijan FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BDI Burundi FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BEL Belgium FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BEN Benin FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BFA Burkina FasFoAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BGD BangladeshFAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BGR Bulgaria FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BHR Bahrain FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BHS Bahamas, TFhAeO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BIH Bosnia and FHAeOrz_eEgMoSviTnOaGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BLR Belarus FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BLZ Belize FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BMU Bermuda FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BOL Bolivia FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BRA Brazil FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BRB Barbados FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BRN Brunei DaruFsAsOal_aEmMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BTN Bhutan FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual BWA Botswana FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual CAF Central AfricFaAnO R_EeMpuSbTlOiGcTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual CAN Canada FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual CHE SwitzerlandFAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual CHL Chile FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual CHN China FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual CIV Cote d'IvoireFAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual CMR Cameroon FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual COD Congo, DemF.A ROe_pE.MSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual COG Congo, RepF.AO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual COK Cook IslandFsAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual COL Colombia FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual COM Comoros FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual CPV Cabo VerdeFAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual CRI Costa RicaFAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual CUB Cuba FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual CYM Cayman IslaFnAdOs_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual CYP Cyprus FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual CZE Czechia FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual DEU Germany FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual DJI Djibouti FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual DMA Dominica FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual DNK Denmark FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual DOM Dominican FRAeOpu_bElMicSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual DZA Algeria FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual ECU Ecuador FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual EGY Egypt, Arab FRAeOp._EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual ERI Eritrea FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual ESH Western SahFAarOa_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual ESP Spain FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual EST Estonia FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual ETH Ethiopia FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
+A Annual FIN Finland FAO_EMSTOGTr_e6e5n1h8ouseK Tgas (GHG)K eilmotiossninoenss F(CAOO2_EeMq)S (TAORETm5)i gsseinoenrsa tTeodta frlsom a0griUfonoitds systemAs
