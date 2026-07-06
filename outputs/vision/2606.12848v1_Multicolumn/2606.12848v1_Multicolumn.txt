@@ -1,0 +1,135 @@
+=== PAGE 1 ===
+A PREPRINT - JUNE 12, 2026
+
+Table 1: Taxonomy of primary failure modes.
+
+| Failure type                        | Description                                                                                                                                                                                                                                                                                                  |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Infeasible questions                | Questions that cannot be implemented given the available data, including reliance on non-existent variables, insufficient within-sample variation, or incompatibility with the data structure (e.g., panel methods on cross-sectional data).                                                                    |
+| Data-processing and execution failures | Errors in data handling or computational execution: incorrect variable construction, sample-filtering mistakes, merge mismatches, or code that fails to run.                                                                                                                                                        |
+| Identification failures             | Empirical strategies that violate core causal-identification assumptions: implausible parallel trends, uncontrolled confounding, reverse causality, or weak/invalid instruments.                                                                                                                               |
+| Hallucinated references and fabrications | Generation of plausible but unverifiable or incorrect factual content: non-existent or misattributed academic references, incorrect author-year combinations, or fabricated supporting evidence.                                                                                                          |
+| Interpretation inconsistencies      | Mismatches between empirical results and their textual interpretation: discrepancies between regression outputs and reported coefficients, incorrect statements of statistical significance, or conclusions not supported by the underlying estimates.                                                     |
+
+Table 2: Main experiment: constrained vs. unconstrained pipeline (pooled across datasets).
+
+|                   | Constrained (n = 100) | Unconstrained (n = 100) | p-value |
+|-------------------|-----------------------|-------------------------|---------|
+| Feasibility rate  | 0.83                  | 0.37                    | < 0.001 |
+| Identification credibility | 0.65                  | 0.31                    | < 0.001 |
+| Output consistency | 0.78                  | 0.29                    | < 0.001 |
+| Any failure       | 0.16                  | 0.72                    | < 0.001 |
+
+Notes: Proportions of runs satisfying each criterion; p-values from two-sided Fisher's exact tests.
+
+output on feasibility (can the question be implemented given the data?), identification credibility (does the strategy
+meet standard criteria for causal inference?), and output consistency (are reported results internally consistent with the
+underlying estimation?). Inter-rater reliability is substantial (mean pairwise Cohen's κ = 0.67). Failures are classified
+into five primary modes (Table 1).
+
+3.1 Decision architecture sharply reduces failure
+
+Across 200 main-experiment runs, the constrained HLER pipeline outperformed the unconstrained baseline on every
+evaluation dimension (Table 2). Feasibility rose from 0.37 to 0.83, identification credibility from 0.31 to 0.65, and
+output consistency from 0.29 to 0.78 (all p < 0.001, two-sided Fisher's exact test). The headline statistic is the overall
+failure rate: 72% of unconstrained runs exhibited at least one critical failure, compared with 16% under HLER.
+
+It is worth noting that identification credibility remains the hardest dimension. Even under HLER, 35% of constrained
+runs fail the identification criterion, compared with 69% under the unconstrained baseline. We therefore interpret HLER
+as a failure-reduction and failure-containment architecture rather than as a system that guarantees reliable causal claims.
+The remaining identification failures typically arise when the available data cannot support the proposed causal contrast,
+when identifying assumptions such as parallel trends or exclusion restrictions are not credible, or when the research
+question is substantively interesting but underidentified by the available design.
+
+3.2 Heterogeneity: gains are largest where training-distribution divergence is largest
+
+Table 3 disaggregates failure rates by dataset. The constrained pipeline outperforms the unconstrained baseline in all
+four cases, but the gap varies across datasets. Because dataset-specific θt is not directly observed, we use literature
+prevalence as an exploratory proxy for dataset familiarity. Specifically, PubMed searches (as of June 8, 2026) for the
+dataset names returned 18,601 results for UK Biobank/UKB, 15,772 for the China Health and Nutrition Survey/CHNS,
+5,175 for the China Health and Retirement Longitudinal Study/CHARLS, and 2 for China Multi-Generational Panel
+Dataset/CMGPD. This proxy is imperfect and likely overweights biomedical visibility, but it provides a transparent
+external measure of how frequently each dataset appears in public scientific discourse.
+
+The largest reliability gap appears in CMGPD-Liaoning (0.16 vs. 0.88), the dataset with the lowest literature prevalence
+and the most historically specific variables and conventions. The smallest gap appears in CHARLS (0.20 vs. 0.64),
+whose standard panel structure is more amenable to automated analysis. UKB (0.12 vs. 0.64) and CHNS (0.16 vs.
+
+5
+
+=== PAGE 2 ===
+A PREPRINT - JUNE 12, 2026
+
+Table 3: Any-failure rate by dataset and pipeline configuration.
+
+| Dataset          | Constrained (n = 25) | Unconstrained (n = 25) | p-value |
+|------------------|----------------------|------------------------|---------|
+| UK Biobank       | 0.12                 | 0.64                   | < 0.001 |
+| CHNS             | 0.16                 | 0.72                   | < 0.001 |
+| CHARLS           | 0.20                 | 0.64                   | 0.004   |
+| CMGPD-Liaoning   | 0.16                 | 0.88                   | < 0.001 |
+
+Notes: Proportion of runs with at least one failure. p-values from two-sided Fisher's exact tests within each dataset.
+
+Table 4: Primary failure modes among failed runs (main experiment, pooled).
+
+| Failure type                                  | Constrained | Unconstrained |
+|-----------------------------------------------|-------------|---------------|
+| Infeasible questions                          | 4           | 17            |
+| Data-processing and execution failures        | 1           | 1             |
+| Identification failures                       | 5           | 15            |
+| Hallucinated references and fabrications      | 3           | 21            |
+| Interpretation inconsistencies                | 3           | 18            |
+| **Total failures**                            | **16**      | **72**        |
+
+Notes: Counts of failed runs assigned to a primary failure type.
+
+0.72) lie between. This heterogeneity should therefore be interpreted as suggestive rather than as a direct test of θt; the pattern is consistent with the model's prediction that the reliability dividend from decision architecture is larger when the data environment is less familiar to the LLM, but θt itself is proxied rather than observed.
+
+The composition of failures was also informative (Table 4). Hallucinated references and fabrications were seven times more common in unconstrained runs than under HLER (21 vs. 3); interpretation inconsistencies, six times (18 vs. 3); infeasible questions and identification failures, between three- and four-fold. Data-processing failures were rare under both configurations (1 each), confirming that deterministic components are reliable when they are used.
+
+3.3 Deterministic computation and human gates contribute independently
+
+To isolate which architectural feature drives the reliability gain, we ran an 80-run ablation on CHNS and CHARLS crossing two binary factors, human gates (on/off) and deterministic data processing (on/off), with 10 trials per cell per dataset. CHNS and CHARLS were chosen because they are the most comparable pair, minimising dataset-driven heterogeneity.
+
+The full HLER configuration achieved the lowest failure rate (0.20; Table 5). Removing human gates while retaining deterministic processing raised failures to 0.35; removing deterministic processing while retaining human gates raised them to 0.45. Removing both yielded 0.70, approaching the unconstrained baseline. Both features therefore appear to contribute independently. The increment from removing both jointly (0.50) exceeds the sum of removing each alone (0.15 +0.25 = 0.40), a pattern consistent with complementarity between human gates and deterministic computation. However, because the ablation contains only 20 runs per condition, the interaction contrast is imprecise and should be interpreted as exploratory rather than confirmatory. The model rationalises why complementarity is plausible: gate investment α_t lowers the coordination burden Γ, while the deterministic-probabilistic operator partition raises effective gate productivity ψ_A on the blocks where the gate operates. Both inputs enter the optimal allocation jointly, so removing either may weaken the other's marginal contribution.
+
+3.4 Illustrative cases
+
+Aggregate statistics describe the size of the effect; mechanism is more visible in cases. We summarise two; full transcripts are in Appendix C.
+
+Case 1: Escalating and rejecting a flawed identification strategy. In a CHNS run, the system proposed estimating the impact of China's New Rural Cooperative Medical Scheme on systemic inflammation using an event-study design comparing rural treated individuals to urban controls. The question was substantively plausible and the biomarker outcome was objective, so it passed the research-question gate.
+
+6
+
+=== PAGE 3 ===
+A PREPRINT - JUNE 12, 2026
+Table 5: Ablation study: failure rates by design feature (CHNS + CHARLS).
+
+| | Human gates | No human gates |
+| :------------------------------ | :------------ | :------------- |
+| Deterministic data processing   | 0.20 (n = 20) | 0.35 (n = 20)  |
+| No deterministic data processing | 0.45 (n = 20) | 0.70 (n = 20)  |
+
+Notes: Each cell reports the proportion of runs with any failure. Full HLER = deterministic data processing + human gates.
+
+At the identification stage, the deterministic event-study diagnostic revealed a clear violation of the parallel-trends assumption. Pre-treatment coefficients exhibited a large and statistically significant deviation (t = -4, p < 0.001), and the joint pre-trend test rejected the identifying assumption. The important point is not that the LLM reviewers immediately recognised the violation with full force. They did not: early drafts understated the severity of the pre-trend failure and treated restricted-sample specifications as potential repairs. What changed across review iterations was the escalation of the issue from a reported diagnostic concern to a publication-blocking identification defect.
+
+The violation could not be convincingly resolved. At the publication gate, the human PI declined to approve the study, concluding that the estimated effects could not be interpreted causally. This case therefore illustrates the function of HLER as a research harness: it does not require each LLM reviewer to be individually reliable on the first pass. Instead, deterministic diagnostics, repeated critique, auditable records, and a final human gate jointly prevent an unreliable causal claim from being advanced as publication-ready output. The model in Eq. (3) captures this through the gate investment $a_t = \psi_A \lambda_t$: a positive $\lambda_t$ raises $a_t$ and so reduces the coordination burden $\Gamma = \chi n_t e^{-a_t}$ that would otherwise push final output quality $Q_t$ below the publication-decision threshold $\tau$.
+
+Case 2: Methodological sophistication does not substitute for identification. A CHARLS analysis examined the effect of urban employee medical insurance (UEBMI) on outpatient healthcare utilisation among the elderly. The system implemented a double/debiased machine-learning (DDML) framework with individual fixed effects, using random forests to flexibly control for nonlinear confounding.
+
+Despite the use of state-of-the-art methods, the identification strategy faced a fundamental challenge. Transitions into UEBMI coverage were closely tied to retirement, and retirement timing is itself endogenous to health shocks. As a result, the estimated positive association between insurance enrolment and outpatient spending could not be cleanly interpreted as causal: it remained observationally indistinguishable from adverse selection into coverage.
+
+During the review process, the system identified these limitations and progressively revised the interpretation. Early drafts overstated the result as evidence of insurance-induced utilisation; later versions explicitly acknowledged the marginal statistical significance and the inability to rule out endogeneity. The final manuscript reframed the findings as within-individual associations rather than causal effects and substantially downgraded its policy claims.
+
+This case highlights a critical limitation of automated and machine-learning-augmented approaches: methodological sophistication cannot compensate for weak identification. Even with flexible modelling and advanced estimation techniques, the absence of a credible source of exogenous variation constrains the interpretability of results. HLER addresses this not by guaranteeing valid identification, but by ensuring that such limitations are transparently identified and appropriately reflected in the final output.
+
+4 Discussion
+
+Our findings document a structural mismatch between probabilistic language models and the epistemic requirements of empirical social science, and show that this mismatch can be reduced through decision architecture rather than through better models alone. The task-based production model rationalises this empirically: when LLM output quality is Fréchet-distributed and the scale parameter $\theta_t$ falls with task-training-distribution divergence, human oversight becomes most valuable where the LLM is weakest. The empirical pattern is consistent with this implication, although not a direct measurement of $\theta_t$: the largest reliability dividend appears on the historical CMGPD panel, which has the lowest public literature prevalence and the most unfamiliar data conventions, whereas smaller gaps appear for more widely represented contemporary health datasets.
+
+The central contribution is therefore not that HLER makes AI-assisted research fully reliable. It does not. Identification credibility remains the hardest dimension, and a substantial share of constrained runs still fail this criterion. The contribution is instead that HLER sharply reduces critical failures and changes where those failures occur in the workflow. Under the unconstrained baseline, weak designs, infeasible analyses, and inconsistent interpretations can be carried forward as publication-ready outputs. Under HLER, many of the same weaknesses are detected earlier,
+
+7
+

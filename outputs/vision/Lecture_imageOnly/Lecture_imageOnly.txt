@@ -1,0 +1,54 @@
+=== PAGE 1 ===
+What is Navigation
+Key Questions
+Users Ask
+* How is content structured?
+* Where am I now?
+* Where can I go?
+* Where did I come from?
+* How do I go back?
+Navigation
+Purpose
+* Promote wayfinding in software
+* Define different navigation types
+* Guide navigation design
+* Apply useful navigation patterns
+Best: no navigation needed :)
+
+=== PAGE 2 ===
+Signposts & Wayfinding
+
+**Signposts**
+* Features helping users figure out surroundings
+* Page/window titles & web-page logos
+* Branding devices, tabs & selection indicators
+* Global & local navigation links
+* Progress indicators & breadcrumbs
+* Annotated scroll bars
+
+**Wayfinding**
+* What users do to find their way to goals
+* Clear, unambiguous labels at each decision point
+* Strong calls to action on first pages
+* Environmental clues (X close, logos in corners)
+* Maps provide mental picture of whole space
+* Some users prefer sign-to-sign; others need overview
+
+=== PAGE 3 ===
+Global Navigation
+Signposts
+* Top navigation (horizontal menu)
+* Left sidebar navigation
+* Both: inverted L navigation layout
+* Menus, tabs, and/or sidebars
+
+Wayfinding
+* Bottom of screen, persists across screens
+* Internal left-right scroll for extra items
+* Hamburger menu (three horizontal lines)
+* Three dots menu variant
+* Tapping invokes navigation panel
+
+Site or app navigation on every main screen
+how users move around the formal navigational structure.
+

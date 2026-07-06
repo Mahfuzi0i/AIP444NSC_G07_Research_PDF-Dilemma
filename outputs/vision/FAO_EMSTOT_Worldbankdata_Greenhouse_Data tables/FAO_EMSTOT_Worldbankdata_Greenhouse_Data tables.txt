@@ -1,0 +1,70 @@
+=== PAGE 1 ===
+FREQ FREQ_LABI REF_AREA REF_AREA_INDICATOF INDICATOF UNIT_MEAS UNIT_MEAS DATABASE DATABASE UNIT_MULT UNIT_MULTOBS_STATU
+A Annual ABW Aruba FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual AFG Afghanista FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual AGO Angola FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual AIA Anguilla FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual ALB Albania FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual AND Andorra FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual ANT Netherland FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual ARE United Aral FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual ARG Argentina FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual ARM Armenia FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual ASM American S FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual ATG Antigua and FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual AUS Australia FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual AUT Austria FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual AZE Azerbaijan FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BDI Burundi FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BEL Belgium FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BEN Benin FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BFA Burkina Fa: FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BGD Bangladesi FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BGR Bulgaria FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BHR Bahrain FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BHS Bahamas, FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BIH Bosnia and FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BLR Belarus FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BLZ Belize FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BMU Bermuda FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BOL Bolivia FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BRA Brazil FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BRB Barbados FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BRN Brunei Darı FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual BTN Bhutan FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+
+=== PAGE 2 ===
+A Annual BWA Botswana FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual CAF Central Afri FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual CAN Canada FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual CHE Switzerland FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual CHL Chile FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual CHN China FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual CIV Cote d'Ivoiı FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual CMR Cameroon FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual COD Congo, Der FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual COG Congo, Rer FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual COK Cook Island FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual COL Colombia FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual COM Comoros FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual CPV Cabo Verde FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual CRI Costa Rica FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual CUB Cuba FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual CYM Cayman IsI FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual CYP Cyprus FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual CZE Czechia FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual DEU Germany FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual DJI Djibouti FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual DMA Dominica FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual DNK Denmark FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual DOM Dominican FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual DZA Algeria FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual ECU Ecuador FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual EGY Egypt, Arab FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual ERI Eritrea FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual ESH Western Sa FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual ESP Spain FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual EST Estonia FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual ETH Ethiopia FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+A Annual FIN Finland FAO_EMST Greenhous KT Kilotonnes FAO_EMST Emissions 0 Units A
+

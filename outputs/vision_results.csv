@@ -1,0 +1,9 @@
+pdf_name,tool,time_sec,char_count,accuracy,failed,cost_usd,pages,content_completeness,table_preservation
+1810.04805v2_tables&figures,gemini-2.5-flash,22.02,9822,,False,0.003169,3,,
+2606.12848v1_Multicolumn,gemini-2.5-flash,19.87,15771,,False,0.003039,3,,
+DOC3621-190_PrimosSubrRef_19.4_Apr85_ImageOnly,gemini-2.5-flash,16.23,5103,,False,0.001964,3,,
+FAO_EMSTOT_Worldbankdata_Greenhouse_Data tables,gemini-2.5-flash,12.35,5618,,False,0.001786,2,,
+fw2_Scanned_govt_Form,gemini-2.5-flash,11.39,5521,,False,0.002026,3,,
+Lecture_imageOnly,gemini-2.5-flash,8.88,1410,,False,0.001366,3,,
+Liberty Bell - Wikipedia_Clean_baseline,gemini-2.5-flash,25.03,12779,,False,0.003409,4,,
+_10-K-Q4-2023-As-Filed_FinancialTables,gemini-2.5-flash,19.6,9359,,False,0.002955,3,,
