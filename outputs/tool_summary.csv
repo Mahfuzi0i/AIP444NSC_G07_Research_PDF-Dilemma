@@ -1,0 +1,4 @@
+tool,pdfs_processed,failures,avg_time_sec,avg_char_count,total_cost_usd
+gemini-2.5-flash,8,0,16.9212,8172.875,0.0197
+pdfplumber,8,0,0.511,6770.875,0.0
+pymupdf,8,0,0.0232,6455.75,0.0
